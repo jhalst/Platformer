@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = renderBackground()>
+    <script src="level.js"></script>
+    <script src="setup.js"></script>
+    <script src="runGame.js"></script>
+    
+    <div id='background'>
+      <img id='0' src='backgrounds/platformer background level 0.png'>
+      <img id='1' src='backgrounds/platformer background level 1.png'>
+      <img id='2' src='backgrounds/platformer background level 2.png'>
+      <img id='3' src='backgrounds/platformer background level 3.png'>
+      <img id='4' src='backgrounds/platformer background level 4.png'>
+      <img id='5' src='backgrounds/platformer background level 5.png'>
+      <img id='6' src='backgrounds/platformer background level 6.png'>
+    </div>
+    <div id="loadScreen">
+      <h3>← ↑ → or WASD to move<p>Find the green shape to advance</h3>
+      <!--<button onclick="startGame()"><b>START GAME</b></button>--></div>
+    <canvas id="game" width="0" height="0"style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+
+  </body>
+</html>
